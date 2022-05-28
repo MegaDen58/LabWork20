@@ -12,19 +12,19 @@ interface LowConnect{
 
 class HighVolt implements HighConnect{
     public void Charge(){
-        System.out.println("Телефон заряжается.");
+        System.out.println("РўРµР»РµС„РѕРЅ Р·Р°СЂСЏР¶Р°РµС‚СЃСЏ.");
     }
     public void HighPower(){
-        System.out.println("Мощность розетки 380 Вольт.");
+        System.out.println("РњРѕС‰РЅРѕСЃС‚СЊ СЂРѕР·РµС‚РєРё 380 Р’РѕР»СЊС‚.");
     }
 }
 
 class LowVolt implements LowConnect{
     public void Charge(){
-        System.out.println("Телефон заряжается.");
+        System.out.println("РўРµР»РµС„РѕРЅ Р·Р°СЂСЏР¶Р°РµС‚СЃСЏ.");
     }
     public void LowPower(){
-        System.out.println("Мощность розетки 220 Вольт.");
+        System.out.println("РњРѕС‰РЅРѕСЃС‚СЊ СЂРѕР·РµС‚РєРё 220 Р’РѕР»СЊС‚.");
     }
 }
 
