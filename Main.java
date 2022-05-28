@@ -52,9 +52,6 @@ class SocketAdapter implements HighConnect{
     }
 }
 
-
-
-
     public class Main {
         public static void main(String[] args) {
             HighVolt highVolt = new HighVolt();
